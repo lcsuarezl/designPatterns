@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Strategy" version="4">
+  <OBJECT>
+    <ID name="Strategy" mc="Standard.Package" uid="f0185a00-dbb4-4090-ba29-3c1769918248"/>
+    <PID name="DesignPatterns" mc="Standard.Project" uid="b8041395-c7d0-42ee-91a9-05352ff7faa1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Strategy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Duck" mc="Standard.Package" uid="eee4db07-dcc3-4a15-9250-d6aef320bd28"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="designpatterns Class diagram" mc="Standard.ClassDiagram" uid="606ac0db-402e-4902-99ba-4e3fd30b9dd9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

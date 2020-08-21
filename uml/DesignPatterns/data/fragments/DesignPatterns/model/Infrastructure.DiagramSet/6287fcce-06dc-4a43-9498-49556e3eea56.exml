@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DesignPatterns" version="4">
+  <OBJECT>
+    <ID name="DesignPatterns" mc="Infrastructure.DiagramSet" uid="6287fcce-06dc-4a43-9498-49556e3eea56"/>
+    <PID name="DesignPatterns" mc="Standard.Project" uid="b8041395-c7d0-42ee-91a9-05352ff7faa1"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[DesignPatterns]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Duck" version="4">
+  <OBJECT>
+    <ID name="Duck" mc="Standard.Package" uid="eee4db07-dcc3-4a15-9250-d6aef320bd28"/>
+    <PID name="Strategy" mc="Standard.Package" uid="f0185a00-dbb4-4090-ba29-3c1769918248"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Duck]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FlyBehavior" mc="Standard.Package" uid="316015e8-4140-4dd2-9552-a45231f43ab1"/>
+        <COMPID name="QuackBehavior" mc="Standard.Package" uid="abe38059-6c4a-466c-9143-ca738a92a147"/>
+        <COMPID name="Client" mc="Standard.Package" uid="a37a452d-d7c1-4888-8b8d-1dc14fba7989"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
