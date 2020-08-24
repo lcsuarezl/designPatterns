@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Characters" version="4">
+  <OBJECT>
+    <ID name="Characters" mc="Standard.Package" uid="af92b30a-c107-453a-9c72-ddd0e96d869d"/>
+    <PID name="AdventureGame" mc="Standard.Package" uid="a2b90cc8-d297-4c8d-8f1a-103d3ee8e9ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Characters]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Character" mc="Standard.Class" uid="0ec737b6-ede9-4669-82f1-76b44ba1ccb5"/>
+        <COMPID name="Queen" mc="Standard.Class" uid="bc06216d-984a-4913-a19a-d224ffcaacaf"/>
+        <COMPID name="Troll" mc="Standard.Class" uid="74a0bfd9-8f64-49cf-a849-fc48051f56ac"/>
+        <COMPID name="Knight" mc="Standard.Class" uid="88355af0-2199-49e8-98e5-0985f96c47ab"/>
+        <COMPID name="King" mc="Standard.Class" uid="c67f50ce-6e2f-453a-876a-283ca274dfd3"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

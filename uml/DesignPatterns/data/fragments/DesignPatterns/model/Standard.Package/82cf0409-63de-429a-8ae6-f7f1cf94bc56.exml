@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="WeaponBehaviors" version="4">
+  <OBJECT>
+    <ID name="WeaponBehaviors" mc="Standard.Package" uid="82cf0409-63de-429a-8ae6-f7f1cf94bc56"/>
+    <PID name="AdventureGame" mc="Standard.Package" uid="a2b90cc8-d297-4c8d-8f1a-103d3ee8e9ea"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[WeaponBehaviors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="WeaponBehavior" mc="Standard.Interface" uid="0aaa2e83-ff62-47b2-a775-65a87c032ac7"/>
+        <COMPID name="BowAndArrowBehavior" mc="Standard.Class" uid="a17c8366-0cf5-4bd9-bdb6-af2e011a5e0c"/>
+        <COMPID name="SwordBehavior" mc="Standard.Class" uid="c66477d7-e1cb-45cf-b0a8-e095d9de9976"/>
+        <COMPID name="AxeBehavior" mc="Standard.Class" uid="b155e80c-c6a8-4c37-8573-08310875dda0"/>
+        <COMPID name="KnifeBehavior" mc="Standard.Class" uid="a52ff6eb-31d8-4f38-8cd3-9d3d8806d14e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MallardDuck" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Queen" version="4">
   <OBJECT>
-    <ID name="MallardDuck" mc="Standard.Class" uid="0eac5f09-b079-4d98-b92c-5d89688080fb"/>
-    <PID name="Client" mc="Standard.Package" uid="a37a452d-d7c1-4888-8b8d-1dc14fba7989"/>
+    <ID name="Queen" mc="Standard.Class" uid="bc06216d-984a-4913-a19a-d224ffcaacaf"/>
+    <PID name="Characters" mc="Standard.Package" uid="af92b30a-c107-453a-9c72-ddd0e96d869d"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[MallardDuck]]></ATT>
+      <ATT name="Name"><![CDATA[Queen]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="display" mc="Standard.Operation" uid="b2fa3025-a2e0-435e-84c8-385f9bc709de"/>
+          <ID name="fight" mc="Standard.Operation" uid="a40a8b54-dd00-473d-ba54-1426c631830b"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,7 +25,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[display]]></ATT>
+            <ATT name="Name"><![CDATA[fight]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
@@ -33,7 +33,7 @@
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="d1ab860e-4a08-4b87-918e-49f8829bedaa"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="142eb1e2-5638-4638-97b1-7434622c3529"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -41,23 +41,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Duck" mc="Standard.Class" uid="53139a07-c72a-4bf9-88e1-5eaeae919f1e"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Descriptor">
-        <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="4570c2c1-9bf6-461b-9ff1-1f7d22ac488d"/>
-          <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
-            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Model">
-              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+              <ID name="Character" mc="Standard.Class" uid="0ec737b6-ede9-4669-82f1-76b44ba1ccb5"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

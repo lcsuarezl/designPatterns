@@ -15,9 +15,11 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Duck" mc="Standard.Package" uid="eee4db07-dcc3-4a15-9250-d6aef320bd28"/>
+        <COMPID name="AdventureGame" mc="Standard.Package" uid="a2b90cc8-d297-4c8d-8f1a-103d3ee8e9ea"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="designpatterns Class diagram" mc="Standard.ClassDiagram" uid="606ac0db-402e-4902-99ba-4e3fd30b9dd9"/>
+        <COMPID name="Duck " mc="Standard.ClassDiagram" uid="606ac0db-402e-4902-99ba-4e3fd30b9dd9"/>
+        <COMPID name="AdventureGame" mc="Standard.ClassDiagram" uid="0a805565-4cfc-49e2-bb4c-e89f4e46472b"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

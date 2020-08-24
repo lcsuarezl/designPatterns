@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RubberDuck" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="KnifeBehavior" version="4">
   <OBJECT>
-    <ID name="RubberDuck" mc="Standard.Class" uid="13408575-1d59-4d40-bbc1-77067bbd4044"/>
-    <PID name="Client" mc="Standard.Package" uid="a37a452d-d7c1-4888-8b8d-1dc14fba7989"/>
+    <ID name="KnifeBehavior" mc="Standard.Class" uid="a52ff6eb-31d8-4f38-8cd3-9d3d8806d14e"/>
+    <PID name="WeaponBehaviors" mc="Standard.Package" uid="82cf0409-63de-429a-8ae6-f7f1cf94bc56"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[RubberDuck]]></ATT>
+      <ATT name="Name"><![CDATA[KnifeBehavior]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="display" mc="Standard.Operation" uid="8db00325-685d-441f-ba52-121eca237b29"/>
+          <ID name="useWeapon" mc="Standard.Operation" uid="7009282e-5da0-44b7-ba8f-486048a715b8"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,23 +25,28 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[display]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="faec2f97-a3ad-4c46-8f39-978bcec15492"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="Name"><![CDATA[useWeapon]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Duck" mc="Standard.Class" uid="53139a07-c72a-4bf9-88e1-5eaeae919f1e"/>
+            <LINK relation="Redefines">
+              <REFOBJ>
+                <ID name="useWeapon" mc="Standard.Operation" uid="bd94c347-2475-45ec-bf6d-8c1af3802887"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Realized">
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="3dd38471-2b7a-466e-b1e6-e558e35948a2"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="WeaponBehavior" mc="Standard.Interface" uid="0aaa2e83-ff62-47b2-a775-65a87c032ac7"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
